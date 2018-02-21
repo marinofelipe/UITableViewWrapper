@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UITableViewWrapper_Example' do
+  pod 'UITableViewWrapper', :path => '../'
+
+  target 'UITableViewWrapper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
