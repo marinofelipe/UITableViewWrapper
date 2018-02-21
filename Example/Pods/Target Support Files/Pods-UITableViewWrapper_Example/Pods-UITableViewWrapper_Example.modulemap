@@ -1,0 +1,6 @@
+framework module Pods_UITableViewWrapper_Example {
+  umbrella header "Pods-UITableViewWrapper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

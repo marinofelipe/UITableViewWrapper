@@ -1,0 +1,6 @@
+framework module UITableViewWrapper {
+  umbrella header "UITableViewWrapper-umbrella.h"
+
+  export *
+  module * { export * }
+}
