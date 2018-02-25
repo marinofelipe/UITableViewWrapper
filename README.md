@@ -1,6 +1,7 @@
 # UITableViewWrapper
 
 [![CI Status](http://img.shields.io/travis/marinofelipe/UITableViewWrapper.svg?style=flat)](https://travis-ci.org/marinofelipe/UITableViewWrapper)
+[![Coverage Status](https://coveralls.io/repos/github/marinofelipe/UITableViewWrapper/badge.svg?branch=master)](https://coveralls.io/github/marinofelipe/UITableViewWrapper?branch=master)
 [![Version](https://img.shields.io/cocoapods/v/UITableViewWrapper.svg?style=flat)](http://cocoapods.org/pods/UITableViewWrapper)
 [![License](https://img.shields.io/cocoapods/l/UITableViewWrapper.svg?style=flat)](http://cocoapods.org/pods/UITableViewWrapper)
 [![Platform](https://img.shields.io/cocoapods/p/UITableViewWrapper.svg?style=flat)](http://cocoapods.org/pods/UITableViewWrapper)
