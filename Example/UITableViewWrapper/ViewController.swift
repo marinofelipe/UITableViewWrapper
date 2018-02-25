@@ -7,18 +7,25 @@
 //
 
 import UIKit
+import UITableViewWrapper
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var wrappedTableView: UIWrappedTableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    // MARK: Table View Config
+    func configTableView() {
+//        wrappedTableView.setAmount(Ofsections: 3, rowsBySection: [1, 0, 3])
+    }
 }
 

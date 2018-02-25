@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  UITableViewWrapper: a465a65c1325984ab8cca1fe4aac1a2a2d4ab5bf
+  UITableViewWrapper: 7569546f1fc6974a863c313876581a67f03d8b83
 
 PODFILE CHECKSUM: 60cb2470ac5bc9bc5c0cacf9c5669bf4297a5a98
 

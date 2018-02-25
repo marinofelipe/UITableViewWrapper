@@ -1,8 +1,8 @@
 {
   "name": "UITableViewWrapper",
   "version": "0.1.0",
-  "summary": "A short description of UITableViewWrapper.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "declarative way to work with table views",
+  "description": "UITableViewWrapper brings a more declarative way to work with table delegate and datasource functionalities.",
   "homepage": "https://github.com/marinofelipe/UITableViewWrapper",
   "license": {
     "type": "MIT",

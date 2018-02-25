@@ -6,7 +6,6 @@ xcodeproj: Example/UITableViewWrapper.xcodeproj
 workspace: Example/UITableViewWrapper.xcworkspace
 scheme: UITableViewWrapper-Example
 source_directory: UITableViewWrapper/Classes
-# binary_basename: SnackBar
 ignore:	
   - ExamplePodCode/*
   - ProjectTestsGroup/*

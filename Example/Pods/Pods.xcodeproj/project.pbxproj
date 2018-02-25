@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0468D2B2CA39A082795F21DDE2377FE5 /* UIWrappedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735213EBC85CE2C51A4445FBC21A967 /* UIWrappedTableView.swift */; };
 		14DEC71E0803F3170052FCB1C99BA155 /* Pods-UITableViewWrapper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAC2F7D07186F03C607E9E33D66E496 /* Pods-UITableViewWrapper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1731864FFA6391DF780E3D59FF17222D /* UITableViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC4E15B36C2671CFEDE3CA0DCF6207E /* UITableViewWrapper.swift */; };
+		25671120595F0DBE9583986EBE4BBD7A /* TableDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA0EE6A6F68D031E1F9F22052FC8E9 /* TableDelegateWrapper.swift */; };
 		730A7F3ECE21CA503A701FBAACAB9F06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7D699FF59557D23808DA9AE698D2C497 /* Pods-UITableViewWrapper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A725F0BE25F32C2B6635B6E0B72DC16 /* Pods-UITableViewWrapper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85A5C1D087515E63259F8BD7234451B4 /* UITableViewWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8AC3222C7C008D6F3AD132256A06DE /* UITableViewWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85A5C1D087515E63259F8BD7234451B4 /* UITableViewWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0114259F42A8336E8951F07E12477CB7 /* UITableViewWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9257C2E345E785109D800271879F1072 /* TableDataSourceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E07F21C07BCA8CFB7E648FF678B090 /* TableDataSourceWrapper.swift */; };
 		9CAD887F940DB88B4CF6ABF429253CC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A389AE529EFC01DA8E2DE4E8E4044B45 /* Pods-UITableViewWrapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B632DD8EEF527AFFAD4C17055DADE9B /* Pods-UITableViewWrapper_Tests-dummy.m */; };
 		AC62C95A760E5658DDF0B83EAEFBC19B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CEA476A7AA229C92395BD3B76D835989 /* Pods-UITableViewWrapper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A646D143998DAC3139AF9585136EA4A0 /* Pods-UITableViewWrapper_Example-dummy.m */; };
-		E4FA87CCBC161880F6008C75FB9894E0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE069A0155B7AB8C25C7B32C6AE74B /* ReplaceMe.swift */; };
-		FD6542BBABC9CFED0B5A01ADB7728CF3 /* UITableViewWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 515F43EE4C95E9674ACD3C7522A36A3D /* UITableViewWrapper-dummy.m */; };
+		CEA5C454FE1AD29E08B4B3AB10D852E8 /* UITableViewWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC12EB4D14E0E4DFD062793F82148D47 /* UITableViewWrapper-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,24 +33,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0114259F42A8336E8951F07E12477CB7 /* UITableViewWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewWrapper-umbrella.h"; sourceTree = "<group>"; };
 		0B31FBF5D2E0EDC4FACFE941FB7E8323 /* Pods-UITableViewWrapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITableViewWrapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0EC13995A12DB682AE4E10854ED2E3F6 /* UITableViewWrapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UITableViewWrapper.xcconfig; sourceTree = "<group>"; };
+		1735213EBC85CE2C51A4445FBC21A967 /* UIWrappedTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIWrappedTableView.swift; path = UITableViewWrapper/Classes/UIWrappedTableView.swift; sourceTree = "<group>"; };
 		1AB9C5282807E0A82FD986001DBC4919 /* Pods-UITableViewWrapper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITableViewWrapper_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1B1BFD55FF0DD2CACA36142347C17F65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C6C54D9E08880B8394DE317E9C74E41 /* Pods-UITableViewWrapper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UITableViewWrapper_Example.modulemap"; sourceTree = "<group>"; };
-		41DD398291BBEABC36BDBD0597BBF518 /* UITableViewWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UITableViewWrapper.modulemap; sourceTree = "<group>"; };
+		2F26D0B3B480CEFB47AB1D1F08D5255A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		475B31B16759679A5CA5AE4EBAA6080E /* Pods-UITableViewWrapper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITableViewWrapper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		491F3968150C5E3926DE253A9E7D3357 /* Pods-UITableViewWrapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITableViewWrapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4921F1BDE74C4CB2B04B3252122DA20A /* Pods-UITableViewWrapper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UITableViewWrapper_Tests.modulemap"; sourceTree = "<group>"; };
 		4A725F0BE25F32C2B6635B6E0B72DC16 /* Pods-UITableViewWrapper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITableViewWrapper_Example-umbrella.h"; sourceTree = "<group>"; };
-		515F43EE4C95E9674ACD3C7522A36A3D /* UITableViewWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewWrapper-dummy.m"; sourceTree = "<group>"; };
+		4C91B9575F7528DF7D53D5AEF93E012E /* UITableViewWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UITableViewWrapper.modulemap; sourceTree = "<group>"; };
 		51FF9CBD848A402643DA9EE059DC242E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AA162DB2EDAE70F9B9EC9E0DEE36A38 /* Pods-UITableViewWrapper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITableViewWrapper_Tests-resources.sh"; sourceTree = "<group>"; };
+		5CFA0EE6A6F68D031E1F9F22052FC8E9 /* TableDelegateWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableDelegateWrapper.swift; path = UITableViewWrapper/Classes/TableDelegateWrapper.swift; sourceTree = "<group>"; };
 		5EC43020F8243C6B76EF0172042BFFA4 /* Pods-UITableViewWrapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITableViewWrapper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		616BB838C0547E9B15A62C9CBFF13C04 /* Pods-UITableViewWrapper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITableViewWrapper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		639AC40EB59CCD74619CBA1D87ED39EF /* Pods_UITableViewWrapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UITableViewWrapper_Tests.framework; path = "Pods-UITableViewWrapper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		772865E87244F3C2E72B5E4343DD9EE0 /* UITableViewWrapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UITableViewWrapper.xcconfig; sourceTree = "<group>"; };
-		7ABE069A0155B7AB8C25C7B32C6AE74B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UITableViewWrapper/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		76E07F21C07BCA8CFB7E648FF678B090 /* TableDataSourceWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableDataSourceWrapper.swift; path = UITableViewWrapper/Classes/TableDataSourceWrapper.swift; sourceTree = "<group>"; };
 		7C7A4941B3271D104F799509E76C7C58 /* Pods_UITableViewWrapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UITableViewWrapper_Example.framework; path = "Pods-UITableViewWrapper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E687B8A3602481D8C1D8CC42F21D584 /* Pods-UITableViewWrapper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITableViewWrapper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -55,10 +60,11 @@
 		9885E0E5D1646DA72787A84DEC8E58FC /* Pods-UITableViewWrapper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITableViewWrapper_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9B632DD8EEF527AFFAD4C17055DADE9B /* Pods-UITableViewWrapper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITableViewWrapper_Tests-dummy.m"; sourceTree = "<group>"; };
 		A646D143998DAC3139AF9585136EA4A0 /* Pods-UITableViewWrapper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITableViewWrapper_Example-dummy.m"; sourceTree = "<group>"; };
+		A8AD61E23F9FEB61EEC5AD1AF50427C0 /* UITableViewWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewWrapper-prefix.pch"; sourceTree = "<group>"; };
 		A9259DF43A92FDBF2B01447586C0BA60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF00F61642699718125043866AD8D5DB /* Pods-UITableViewWrapper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITableViewWrapper_Example-resources.sh"; sourceTree = "<group>"; };
-		B18F9F7E688AE6DEB92E6E5CDC763A5A /* UITableViewWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewWrapper-prefix.pch"; sourceTree = "<group>"; };
-		CA8AC3222C7C008D6F3AD132256A06DE /* UITableViewWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewWrapper-umbrella.h"; sourceTree = "<group>"; };
+		BEC4E15B36C2671CFEDE3CA0DCF6207E /* UITableViewWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewWrapper.swift; path = UITableViewWrapper/Classes/UITableViewWrapper.swift; sourceTree = "<group>"; };
+		CC12EB4D14E0E4DFD062793F82148D47 /* UITableViewWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewWrapper-dummy.m"; sourceTree = "<group>"; };
 		DEAC2F7D07186F03C607E9E33D66E496 /* Pods-UITableViewWrapper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITableViewWrapper_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EC55118FE4B66BA17E4A7661D4043089 /* Pods-UITableViewWrapper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITableViewWrapper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F71AB2F74B3A408FA1618D173011EF48 /* UITableViewWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UITableViewWrapper.framework; path = UITableViewWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,28 +98,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21B48CA034ACC86ADAF214C335742998 /* Support Files */ = {
+		4FE7656BAD6266F31BF02152A9BBEBA3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B1BFD55FF0DD2CACA36142347C17F65 /* Info.plist */,
-				41DD398291BBEABC36BDBD0597BBF518 /* UITableViewWrapper.modulemap */,
-				772865E87244F3C2E72B5E4343DD9EE0 /* UITableViewWrapper.xcconfig */,
-				515F43EE4C95E9674ACD3C7522A36A3D /* UITableViewWrapper-dummy.m */,
-				B18F9F7E688AE6DEB92E6E5CDC763A5A /* UITableViewWrapper-prefix.pch */,
-				CA8AC3222C7C008D6F3AD132256A06DE /* UITableViewWrapper-umbrella.h */,
+				2F26D0B3B480CEFB47AB1D1F08D5255A /* Info.plist */,
+				4C91B9575F7528DF7D53D5AEF93E012E /* UITableViewWrapper.modulemap */,
+				0EC13995A12DB682AE4E10854ED2E3F6 /* UITableViewWrapper.xcconfig */,
+				CC12EB4D14E0E4DFD062793F82148D47 /* UITableViewWrapper-dummy.m */,
+				A8AD61E23F9FEB61EEC5AD1AF50427C0 /* UITableViewWrapper-prefix.pch */,
+				0114259F42A8336E8951F07E12477CB7 /* UITableViewWrapper-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/UITableViewWrapper";
-			sourceTree = "<group>";
-		};
-		26FE8B8B9E1398B971E3BDEDA88DBC6F /* UITableViewWrapper */ = {
-			isa = PBXGroup;
-			children = (
-				7ABE069A0155B7AB8C25C7B32C6AE74B /* ReplaceMe.swift */,
-				21B48CA034ACC86ADAF214C335742998 /* Support Files */,
-			);
-			name = UITableViewWrapper;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		5F23698D514E243185FDB79605A163EC /* Pods-UITableViewWrapper_Tests */ = {
@@ -148,11 +144,24 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B49001EE27CD0C5AEBD738702AB4085A /* Development Pods */,
+				E456153D5376C827876D1A28D2CAE06E /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				747254AD21A901F72BADC376D7D104BF /* Products */,
 				AEFA0B21B6153D3B4FD94D2FA642FBFC /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8700F33DCF4BBFEDD5F394CAFD52D642 /* UITableViewWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				76E07F21C07BCA8CFB7E648FF678B090 /* TableDataSourceWrapper.swift */,
+				5CFA0EE6A6F68D031E1F9F22052FC8E9 /* TableDelegateWrapper.swift */,
+				BEC4E15B36C2671CFEDE3CA0DCF6207E /* UITableViewWrapper.swift */,
+				1735213EBC85CE2C51A4445FBC21A967 /* UIWrappedTableView.swift */,
+				4FE7656BAD6266F31BF02152A9BBEBA3 /* Support Files */,
+			);
+			name = UITableViewWrapper;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		AEFA0B21B6153D3B4FD94D2FA642FBFC /* Targets Support Files */ = {
@@ -162,14 +171,6 @@
 				5F23698D514E243185FDB79605A163EC /* Pods-UITableViewWrapper_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		B49001EE27CD0C5AEBD738702AB4085A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				26FE8B8B9E1398B971E3BDEDA88DBC6F /* UITableViewWrapper */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -204,6 +205,14 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		E456153D5376C827876D1A28D2CAE06E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8700F33DCF4BBFEDD5F394CAFD52D642 /* UITableViewWrapper */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +284,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FD6C4CAD0E35193B91012802ADE09A1 /* Build configuration list for PBXNativeTarget "UITableViewWrapper" */;
 			buildPhases = (
-				3930ED58FC97C225EC63242EBFEE2381 /* Sources */,
+				5296E8A4954FBEFF76204534599E892D /* Sources */,
 				7EA8B0D2F915AEEBB54C1153452BF394 /* Frameworks */,
 				9BAEB46EFAE21505B318A0D9FE89B879 /* Headers */,
 			);
@@ -317,12 +326,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3930ED58FC97C225EC63242EBFEE2381 /* Sources */ = {
+		5296E8A4954FBEFF76204534599E892D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4FA87CCBC161880F6008C75FB9894E0 /* ReplaceMe.swift in Sources */,
-				FD6542BBABC9CFED0B5A01ADB7728CF3 /* UITableViewWrapper-dummy.m in Sources */,
+				9257C2E345E785109D800271879F1072 /* TableDataSourceWrapper.swift in Sources */,
+				25671120595F0DBE9583986EBE4BBD7A /* TableDelegateWrapper.swift in Sources */,
+				CEA5C454FE1AD29E08B4B3AB10D852E8 /* UITableViewWrapper-dummy.m in Sources */,
+				1731864FFA6391DF780E3D59FF17222D /* UITableViewWrapper.swift in Sources */,
+				0468D2B2CA39A082795F21DDE2377FE5 /* UIWrappedTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +461,7 @@
 		};
 		46673879C88BEE89CEA3FF935540BD7B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 772865E87244F3C2E72B5E4343DD9EE0 /* UITableViewWrapper.xcconfig */;
+			baseConfigurationReference = 0EC13995A12DB682AE4E10854ED2E3F6 /* UITableViewWrapper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -635,7 +647,7 @@
 		};
 		DC560373C964F84DAF1E0E455E489730 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 772865E87244F3C2E72B5E4343DD9EE0 /* UITableViewWrapper.xcconfig */;
+			baseConfigurationReference = 0EC13995A12DB682AE4E10854ED2E3F6 /* UITableViewWrapper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
