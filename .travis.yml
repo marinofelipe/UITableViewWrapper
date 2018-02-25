@@ -27,7 +27,7 @@ install:
 - pod install --project-directory=Example
 
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/SnackBar.xcworkspace -scheme SnackBar-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 7' ONLY_ACTIVE_ARCH=YES | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/UITableViewWrapper.xcworkspace -scheme UITableViewWrapper-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 7' ONLY_ACTIVE_ARCH=YES | xcpretty
 - pod lib lint
 
 after_success: 
