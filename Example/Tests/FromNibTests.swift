@@ -1,5 +1,6 @@
 import UIKit
 import XCTest
+@testable import UITableViewWrapper_Example
 
 class FromNibTests: XCTestCase {
     

@@ -16,7 +16,6 @@
 		9EBB14EF5EACC2E27853EF5E /* Pods_UITableViewWrapper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCE99C8F52F0CD000BFA5E6 /* Pods_UITableViewWrapper_Tests.framework */; };
 		D17A1DB993CD40639DDAEEFC /* Pods_UITableViewWrapper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8168D84CDE3336D3AC8859DA /* Pods_UITableViewWrapper_Example.framework */; };
 		D5992BDF20432D3B0001753C /* ProgramaticallyInitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5992BDE20432D3B0001753C /* ProgramaticallyInitTests.swift */; };
-		D5EA2A8020433D4600737375 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -385,7 +384,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5EA2A8020433D4600737375 /* ViewController.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* FromNibTests.swift in Sources */,
 				D5992BDF20432D3B0001753C /* ProgramaticallyInitTests.swift in Sources */,
 			);
@@ -558,10 +556,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1A13971E97700351DA235A2C /* Pods-UITableViewWrapper_Tests.debug.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = X9MK4PBNUW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -573,6 +573,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableViewWrapper_Example.app/UITableViewWrapper_Example";
 			};
 			name = Debug;
 		};
@@ -580,10 +581,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3443262A2296391B37D0FA6E /* Pods-UITableViewWrapper_Tests.release.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = X9MK4PBNUW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -591,6 +594,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableViewWrapper_Example.app/UITableViewWrapper_Example";
 			};
 			name = Release;
 		};

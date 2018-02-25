@@ -5,7 +5,5 @@ target 'UITableViewWrapper_Example' do
 
   target 'UITableViewWrapper_Tests' do
     inherit! :search_paths
-
-    
   end
 end
