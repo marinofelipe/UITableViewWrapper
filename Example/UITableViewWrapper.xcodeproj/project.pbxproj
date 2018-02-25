@@ -16,6 +16,7 @@
 		9EBB14EF5EACC2E27853EF5E /* Pods_UITableViewWrapper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCE99C8F52F0CD000BFA5E6 /* Pods_UITableViewWrapper_Tests.framework */; };
 		D17A1DB993CD40639DDAEEFC /* Pods_UITableViewWrapper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8168D84CDE3336D3AC8859DA /* Pods_UITableViewWrapper_Example.framework */; };
 		D5992BDF20432D3B0001753C /* ProgramaticallyInitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5992BDE20432D3B0001753C /* ProgramaticallyInitTests.swift */; };
+		D5EA2A8020433D4600737375 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -384,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5EA2A8020433D4600737375 /* ViewController.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* FromNibTests.swift in Sources */,
 				D5992BDF20432D3B0001753C /* ProgramaticallyInitTests.swift in Sources */,
 			);

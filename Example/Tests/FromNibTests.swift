@@ -1,19 +1,18 @@
 import UIKit
 import XCTest
-@testable import UITableViewWrapper
 
-class UIWrapedTableViewInitTests: XCTestCase {
+class FromNibTests: XCTestCase {
     
-    var underTestController: 
+    var underTestController: ViewController?
     
     override func setUp() {
         super.setUp()
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        underTestController = storyboard.instantiateInitialViewController()
+        underTestController = storyboard.instantiateInitialViewController() as? ViewController
         
         UIApplication.shared.keyWindow?.rootViewController = underTestController
         
-        XCTAssertNotNil(underTestController.preloadView())
+        XCTAssertNotNil(underTestController?.preloadView())
     }
     
     override func tearDown() {
@@ -22,7 +21,7 @@ class UIWrapedTableViewInitTests: XCTestCase {
     }
     
     func testTableViewNibInitialization() {
-        XCTAssertNotNil(underTestController.wrappedTableView)
+        XCTAssertNotNil(underTestController?.wrappedTableView)
         XCTAssert(true, "Pass")
     }
     
