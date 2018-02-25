@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        configTableView()
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,7 +25,19 @@ class ViewController: UIViewController {
     
     // MARK: Table View Config
     func configTableView() {
-//        wrappedTableView.setAmount(Ofsections: 3, rowsBySection: [1, 0, 3])
+        wrappedTableView.number(ofRowsBySection: [1, 3, 0])
+        wrappedTableView.cell({ (tableView, indexPath) -> UITableViewCell? in
+            let cell = tableView.dequeueReusableCell(withIdentifier: "DefaultCell", for: indexPath)
+            cell.textLabel?.text = "Testing framework - section: \(indexPath.section) - row: \(indexPath.row)"
+            return cell
+        })
+        wrappedTableView.rowHeight = 150
     }
 }
 
+//to make tests more readable
+extension ViewController {
+    func preloadView() {
+        _ = view
+    }
+}
